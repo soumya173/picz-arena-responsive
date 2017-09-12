@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	display: none;
+}
+.mainBody{
+	width: 100%;
+}
+
+.headImg{
+	background-image: url(../photos/ship.jpg);
+	padding: 100px;
+}
+.navbar {  
+    margin-bottom: 0px !important;  
+}
+.nav>li {
+    position: relative;
+    display: block;
+    padding: 0px 10px 0px 10px;
+}
+.intro{
+	padding: 50px;
+	background-image: url(../photos/7.jpg);
+	background-attachment: fixed;
+	text-align: center;
+}
+#Gallery{
+	background-image: url(../photos/wall.jpg);
+	background-attachment: fixed;
+	text-align: center;
+	padding: 5%;
+}
+.gallery{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	margin-bottom: 5%;
+	color: mintcream;
+}
+.caption{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	color: white;
+	position: relative;
+	top: -50px;
+	opacity: 0;
+}
+.img{
+	opacity: 0;
+}
+.cont{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.footer{
+	height: 100px;
+	text-align: center;
+	padding: 20px;
+	font-size: 100%;
+}

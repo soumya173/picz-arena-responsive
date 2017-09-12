@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<link rel="stylesheet" href="css\style.css">
+		<link rel="stylesheet" href="css\animate.css">
+		<link rel="stylesheet" href="css\bootstrap.min.css">
+		<link rel="stylesheet" href="css\bootstrap-theme.min.css">
+		
+		<script src="js\jquery.js"></script>		
+		<script src="js\bootstrap.min.js"></script>		
+		<script src="js\slideshow.js"></script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div class="container-fluid mainBody">
+			<header class="row head" id="hh">
+				<div class="img-responsive headImg"></div>
+			</header>
+			<div class="row">
+				<nav class="navbar navbar-inverse menu">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">PiczArena</a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#Intro">Intro</a></li>
+								<li><a href="#Gallery">Gallary</a></li>
+								<li><a href="#Contact" data-toggle="modal" data-target="#Login">Login</a></li> 								
+							</ul>					 
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="Login" class="modal fade" role="dialog">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title text-center">Log In</h4>
+						</div>
+						<div class="modal-body text-right">
+							<div class="form-group" for="email">
+								<input type="text" class="form-control" placeholder="Enter your email here" id="email">
+							</div>
+							<div class="form-group" for="password">
+								<input type="password" class="form-control" placeholder="Enter your password here" id="password">
+							</div>
+							<button class="btn btn-success">Log In</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row intro" id="Intro">
+				<div class="col-sm-12">
+					<h1>PiczArena<h1>
+					<h2>The home of your memories</h2>
+				</div>
+				<div class="col-sm-12 cont" id="fade">
+					<h4>Upload, access, organize, edit, and share your photos from any device, from anywhere in the world. Get 1,000GB of free photo storage. We’ll even help you automatically backup your entire collection.</h4>					
+				</div>
+				<button type="button" class="btn btn-primary" id="go">Upload now</button>
+			</div>
+			<div class="row" id="Gallery">
+				<div class="row gallery"><h1 class="">Gallery</h1></div>
+				<div class="row">				
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird1.jpg" />
+							<p class="caption">Bird1</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird2.jpg" />
+							<p class="caption">Bird2</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird3.jpg" />
+							<p class="caption">Bird3</p>
+						</div>
+				</div>
+				<div class="row">				
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird4.jpg" />
+							<p class="caption">Bird4</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird5.jpg" />
+							<p class="caption">Bird5</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird6.jpg" />
+							<p class="caption">Bird6</p>
+						</div>
+				</div>
+				<div class="row">				
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird7.jpg" />
+							<p class="caption">Bird7</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird8.jpg" />
+							<p class="caption">Bird8</p>
+						</div>
+						<div class="col-sm-4 img">
+							<img class="img-responsive img-thumbnail" src="photos\bird9.jpg" />
+							<p class="caption">Bird9</p>
+						</div>
+				</div>
+			</div>
+			<footer class="row footer">
+				<p>Copyright by &copy;PiczArena.com</p>				
+			</footer>
+		</div>
+	</body>
+</html>
